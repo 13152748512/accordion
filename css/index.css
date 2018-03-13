@@ -1,0 +1,237 @@
+body{
+	font-size:12px;
+	display:block;
+	padding:0;
+	margin:0;
+	background:#F6F6F6;
+}
+.clearboth:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+ul,li,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+.top{
+	margin:10px 0;
+	text-align:right;
+}
+.top ul{
+	margin-right:50px;
+	display:inline-block;
+}
+.top ul li,.top ul span{
+	float:left;
+	margin:0px 3px;
+	color:#999;
+}
+.nav{
+	margin-bottom:10px;
+}
+.top_nav{
+	height:60px;
+	width:100%;
+	background:#488BAD;
+}
+.content{
+	margin:20px 0;
+}
+.main_left{
+	float:left;
+	width:200px;
+	margin-left:20px;
+}
+.main_left .account,.main_left .order,.main_left .operation{
+	margin-bottom:20px;
+}
+.admin{
+	margin:10px 0;
+}
+.account,.order,.operation{
+	text-align:center;
+}
+.account h3,.order h3,.operation h3{
+	height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    background: #fff;
+}
+h4{
+	font-size: 16px;
+    font-weight: normal;
+}
+h4>span{
+	display: inline-block;
+    border: 1px solid #ddd;
+    width: 13px;
+    height: 13px;
+    line-height: 11px;
+    text-align: center;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.admin ul li{
+	margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+}
+.admin ul{
+	display:none;
+}
+.main_right{
+	float: left;
+    margin-left: 50px;
+    width: 75%;
+}
+.order_list2{
+	background: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+.order_list2 h3{
+	margin-left: 20px;
+    color: #666;
+    font-size: 16px;
+}
+.order_content{
+	margin: 20px 0;
+    background: #fff;
+    height:500px;
+}
+.order_title,.order_nav{
+	margin: 10px 20px;
+}
+
+.order_title{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.order_title ul{
+	display: inline-block;
+    float: left;
+}
+.order_title ul li,.order_title ul span,.order_nav ul li{
+	float:left;
+	font-size: 14px;
+    margin: 0 10px;
+}
+.order_title ul span{
+	color:#ccc;
+}
+.order_title ul li{
+    cursor: pointer;
+}
+.order_title ul li:hover{
+	color:#F03726;
+}
+.order_title ul li.newest{
+	color:#F03726;
+	border-bottom:2px solid #F03726;
+}
+.order_title .search{
+	display: inline-block;
+    float: left;
+    margin-left: 100px;
+    border: 1px solid #ddd;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.order_title .search input{
+	margin-left: 10px;
+    border: none;
+    width: 231px;
+    outline: none;
+}
+.order_title .search button{
+	width: 55px;
+    height: 30px;
+    border: none;
+}
+.order_nav ul{
+	height: 30px;
+    background: #ddd;
+    line-height: 30px;
+    color: #666;
+}
+.order_nav ul li{
+	text-align: center;
+}
+.order_nav ul li.on1{
+	width:100px;
+}
+.order_nav ul li.on2{
+	width:330px;
+}
+.container{
+	text-align: center;
+}
+.container .o_center{
+	margin-top: 50px;
+}
+.container .o_center img{
+	vertical-align:middle;
+}
+
+.container .o_center p span{
+	color: #666;
+    font-size: 19px;
+    margin: 20px 0;
+}
+.container .o_center p.p_btn button{
+	height: 30px;
+    line-height: 30px;
+}
+.container .o_center p .btn1{
+	background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+.container .o_center p .btn2{
+	background: #E43E41;
+    border: 1px solid #E43E41;
+    height: 30px;
+    color:#fff;
+}
+.footer{
+	background:#EAEAEA;
+	height:300px;
+}
+.footer1{
+	text-align: center;
+    height: 100px;
+    line-height:100px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.footer1 ul{
+	width: 80%;
+    height: 50px;
+    display: inline-block;
+}
+
+.footer1 ul li{
+	float: left;
+    width: 33.3%;
+    font-size: 20px;
+    font-weight: bold;
+	
+}
+.footer1 ul li i{
+	display: inline-block;
+    position: relative;
+    top: 13px;
+    left: -7px;
+	width:36px;
+	height:42px;
+	background: url(../img/ico_service.png) no-repeat;
+}
+.hand{
+	cursor:pointer;
+}
